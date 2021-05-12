@@ -22,6 +22,10 @@
     flex: 0 0 auto;
 } 
 
+.relative {
+    position: relative;
+}
+
 
 
 /* 12 columns rules */
