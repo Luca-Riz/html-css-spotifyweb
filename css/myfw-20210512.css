@@ -30,8 +30,25 @@
     margin-top: 100px;
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
+
 .overflow-y {
     overflow-y: auto;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.mw-none {
+    max-width: none;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
 }
 
 
@@ -39,7 +56,9 @@
 
 
 /* xs rules */
-    
+    .col-xs {flex-grow: 1;  flex-basis: 0;  max-width: 100%;}    
+
+
     .col-xs-1  {flex-basis: calc((100% / 12)* 1);  max-width: calc((100% / 12)* 1);}
     .col-xs-2  {flex-basis: calc((100% / 12)* 2);  max-width: calc((100% / 12)* 2);}
     .col-xs-3  {flex-basis: calc((100% / 12)* 3);  max-width: calc((100% / 12)* 3);}

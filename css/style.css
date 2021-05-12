@@ -1,18 +1,27 @@
 body {
     font-family: 'Montserrat', sans-serif;
     /* background-color: #080b12; attivare alla fine */
+    font-weight: 600;
 }
 
 /* inizio common */
 
 .box-nested {
-    background-color: #f07f80;      /*da togliere*/
-    min-height: 200px;              /*da togliere*/
     width: 100%;
     text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.sub-title {
+    color: #7a7d81;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -51,20 +60,46 @@ nav .sx-nav .bottom {
     position: fixed;
     top: 0;
     right: 0;    
+    background-color: #080b12;
     min-height: 100px;
     width: calc((100% / 12) * 10);
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.contents {
-    background-color: #141922;      
-    height: calc(100vh - 200px); /* -100px footer - 100px upgrade top */
+.upgrade .uppercase {
+    z-index: 1;
+    color: #f7f7f7;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 1px solid #f7f7f7; 
+}
+
+.right-main .row.contents {
+    background-color: #141922;     
     width: 100%;
+    /*  height: calc(100vh - 100px);  - top and bottom fixed */
     border: 1px solid green /* da togliere */
 }
 
+.right-main .contents .navig {
+    justify-content: center;
+}
+
+.right-main .contents .navig li {
+    color: #797b80;
+    display: inline-block;
+    padding: 20px 10px 10px ;
+    background-color: burlywood;
+}
 
 
-/* inizio main dx */
+
+
+
+
+
 /* fine main */
 
 
@@ -73,7 +108,7 @@ nav .sx-nav .bottom {
 
 /* inizio footer */
 
-footer .box {
+footer div .box {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -89,3 +124,9 @@ footer .box {
 
 
 
+/* provvisori */
+.box {
+    border: 1px solid yellow;
+    background-color: #ffc0cb;
+    min-height: 100px;
+}
