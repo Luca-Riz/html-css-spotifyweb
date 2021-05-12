@@ -30,6 +30,10 @@
     margin-top: 100px;
 }
 
+.overflow-y {
+    overflow-y: auto;
+}
+
 
 /* 12 columns rules */
 
