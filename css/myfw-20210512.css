@@ -18,6 +18,10 @@
     flex-wrap: wrap;
 }
 
+[class*="col-"] {
+    flex: 0 0 auto;
+} 
+
 
 
 /* 12 columns rules */

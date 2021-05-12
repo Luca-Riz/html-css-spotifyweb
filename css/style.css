@@ -1,3 +1,24 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.box {
+    border: 1px solid black;
+    background-color: #ffc0cb;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+.box-nested {
+    border: 1px solid white;
+    background-color: #f07f80;
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
