@@ -51,6 +51,34 @@ img {
     object-fit: contain;
 }
 
+/* flex section */
+
+.flex-start     {justify-content: flex-start;}
+.flex-end       {justify-content: flex-end;}
+.flex-center    {justify-content: center;}
+.flex-between   {justify-content: space-between;}
+.flex-around    {justify-content: space-around;}
+.flex-evenly    {justify-content: space-evenly;}
+
+.align-it-start    {align-items: flex-start;}
+.align-it-end      {align-items: flex-end;}
+.align-it-center   {align-items: center;}
+.align-it-stretch  {align-items: stretch;}
+
+.align-se-start     {align-self: flex-start;}
+.align-se-end     {align-self: flex-end;}
+.align-se-center     {align-self: center;}
+.align-se-base     {align-self: baseline;}
+.align-se-stretch     {align-self: stretch;}
+
+.align-co-start     {align-content: flex-start;}
+.align-co-end       {align-content: flex-end;}
+.align-co-center    {align-content: center;}
+.align-co-stretch   {align-content: stretch;}
+.align-co-between   {align-content: space-between;}
+.align-co-around    {align-content: space-around;}
+
+/* end flex section */
 
 /* 12 columns rules */
 
