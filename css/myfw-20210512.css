@@ -45,6 +45,8 @@ img {
     object-fit: contain;
 }
 
+.circle {border-radius: 50%;}
+
 /* flex section */
 
 .flex-start     {justify-content: flex-start;}

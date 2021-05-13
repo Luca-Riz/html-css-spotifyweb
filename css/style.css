@@ -92,7 +92,7 @@ nav .sx-nav .bottom {
     display: inline-block;
     padding: 20px 10px 10px ;
 }
-.right-main .items > div, .right-main .creato-per > div, .right-main .artisti > div {
+.right-main .items > div {
     padding: 10px;
 }
 
