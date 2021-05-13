@@ -96,7 +96,9 @@ nav .sx-nav .bottom {
     padding: 10px;
 }
 
-
+.main-contents {
+    height: calc(100vh - 200px);
+}
 
 
 
