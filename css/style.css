@@ -24,6 +24,13 @@ body {
     margin-bottom: 10px;
 }
 
+/* attenzione, selettore  molto generico */
+.col-xs-2 img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
 
 /* fine common */
 
@@ -38,10 +45,28 @@ body {
 }
 
 .sx-nav .top {
-    height: 150px;
+    height: 150px; /*da togliere */
     width: 100%;
     border: 1px solid red;
 }
+
+.sx-nav .top .logo {
+    width: 100%;
+}
+
+.sx-nav .top .logo img {
+    width: 150px;
+    margin: 20px;
+}
+
+.sx-nav .top .home img{
+    height: 30px;
+}
+
+.sx-nav .top > div {
+    color: #d2d2d2;
+}
+
 .sx-nav .center {
     min-height: calc(100vh - 100px - 150px - 150px); /* - footer - navtop - navbottom */
     min-width: 100%;
@@ -52,12 +77,6 @@ body {
     width: 100%;
     border: 1px solid red;
 }
-
-.sx-nav .top .logo {
-    width: 150px;
-    margin: 20px;
-}
-
 /* fine nav sx */
 
 /* inizio main dx */

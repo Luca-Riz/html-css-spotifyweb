@@ -22,21 +22,6 @@
 
 .relative {position: relative;}
 
-.mt-100 {margin-top: 100px;}
-
-.mb-100 {margin-bottom: 100px;}
-
-.pd-10 {padding: 10px;}
-.pd-20 {padding: 20px;}
-.pd-30 {padding: 30px;}
-.pd-40 {padding: 40px;}
-.pd-50 {padding: 50px;}
-
-.pdl-10 {padding-left: 10px;}
-.pdl-20 {padding-left: 20px;}
-.pdl-30 {padding-left: 30px;}
-.pdl-40 {padding-left: 40px;}
-.pdl-50 {padding-left: 50px;}
 
 .overflow-y {
     overflow-y: auto;
@@ -50,14 +35,38 @@
     max-width: none;
 }
 
-img {
-    width: 100%;
-    object-fit: contain;
-}
-
 .circle {border-radius: 50%;}
 
+
+/* inizio grandezze */
+
+
+.lh-20 {line-height: 20px;}
+.lh-30 {line-height: 30px;}
+
+.mt-100 {margin-top: 100px;}
+
+.mb-100 {margin-bottom: 100px;}
+
+.ml-20 {margin-left: 20px;}
+
+.pd-10 {padding: 10px;}
+.pd-20 {padding: 20px;}
+.pd-30 {padding: 30px;}
+.pd-40 {padding: 40px;}
+.pd-50 {padding: 50px;}
+
+.pdl-10 {padding-left: 10px;}
+.pdl-20 {padding-left: 20px;}
+.pdl-30 {padding-left: 30px;}
+.pdl-40 {padding-left: 40px;}
+.pdl-50 {padding-left: 50px;}
+
+/* fine grandezze */
+
 /* flex section */
+
+.flex           {display: flex;}
 
 .flex-column    {flex-direction: column;}
 
