@@ -30,23 +30,24 @@ body {
 /* inizio main */
 /* inizio nav sx */
 
-nav .sx-nav {
+.sx-nav {
     background-color: #000000;
     min-height: calc(100vh - 100px); /* -100px footer */
     border: 1px solid green; /* da togliere */
+    width: 300px;
 }
 
-nav .sx-nav .top {
+.sx-nav .top {
     height: 150px;
     width: 100%;
     border: 1px solid red;
 }
-nav .sx-nav .center {
+.sx-nav .center {
     min-height: calc(100vh - 100px - 150px - 150px); /* - footer - navtop - navbottom */
     min-width: 100%;
     border: 1px solid red;
 }
-nav .sx-nav .bottom {
+.sx-nav .bottom {
     height: 150px;
     width: 100%;
     border: 1px solid red;
@@ -62,7 +63,7 @@ nav .sx-nav .bottom {
     right: 0;    
     background-color: #080b12;
     min-height: 100px;
-    width: calc((100% / 12) * 10);
+    width: calc(100% - 300px);
     justify-content: flex-end;
     align-items: center;
 }
