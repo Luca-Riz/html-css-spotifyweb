@@ -53,6 +53,10 @@ body {
     border: 1px solid red;
 }
 
+.sx-nav .top .logo {
+    width: 150px;
+    margin: 20px;
+}
 
 /* fine nav sx */
 
