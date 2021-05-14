@@ -205,6 +205,24 @@ footer {
     left: 0;
 }
 
+.foot-dx .little-bar {
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #5a5a5a;
+    position: relative;
+}
+
+.foot-dx .little-bar-white {
+    width: 20px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* fine footer */
 
 
