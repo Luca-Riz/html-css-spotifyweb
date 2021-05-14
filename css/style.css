@@ -131,8 +131,6 @@ body {
 .right-main .row.contents {
     background-color: #141922;     
     width: 100%;
-    /*  height: calc(100vh - 100px);  - top and bottom fixed */
-    border: 1px solid green /* da togliere */
 }
 
 .right-main .contents .navig {
@@ -217,15 +215,3 @@ footer {
 }
 
 /* fine footer */
-
-
-
-
-
-
-/* provvisori */
-.box {
-    border: 1px solid yellow;
-    background-color: #ffc0cb;
-    min-height: 100px;
-}
