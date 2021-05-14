@@ -43,13 +43,13 @@ body {
 
 .sx-nav {
     background-color: #000000;
+    max-height: calc(100vh - 100px); /* -100px footer */
     min-height: calc(100vh - 100px); /* -100px footer */
-    border: 1px solid green; /* da togliere */
     width: 300px;
 }
 
 .sx-nav .top {
-    /* height: 150px; da togliere */
+    height: 270px;
     width: 100%;
     border: 1px solid red;
 }
@@ -80,14 +80,13 @@ body {
 }
 
 .sx-nav .center {
-    min-height: calc(100vh - 100px - 150px - 150px); /* - footer - navtop - navbottom */
+    min-height: 130px;
+    height: calc(100vh - 100px - 270px - 85px); /* -footer -navtop -navbottom */
     min-width: 100%;
-    border: 1px solid red;
 }
 .sx-nav .bottom {
-    height: 200px;
+    height: 85px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .sx-nav .bottom div div{
