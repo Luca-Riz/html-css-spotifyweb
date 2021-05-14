@@ -171,20 +171,13 @@ footer div .box {
     background-color: #141922;
 }
 
-
-/* qui sotto tuto da fare */
-[class*="foot-"] {
-    width: 250px;
-    height: 50px;
-    background-color: blue;
-} 
-
 footer {
     color: #ffffff;
 }
 
-.foot-sx {
-    width: 180px;
+.foot-sx-sx {
+    width: 200px;
+    height: 50px;
 }
 
 .foot-center .ft-c-bottom .center .all-bar {
