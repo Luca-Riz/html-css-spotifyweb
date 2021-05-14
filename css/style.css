@@ -30,6 +30,10 @@ body {
     object-fit: contain;
 }
 
+.white {
+    color: white;
+}
+
 
 
 /* fine common */
@@ -45,7 +49,7 @@ body {
 }
 
 .sx-nav .top {
-    height: 150px; /*da togliere */
+    /* height: 150px; da togliere */
     width: 100%;
     border: 1px solid red;
 }
@@ -59,11 +63,19 @@ body {
     margin: 20px;
 }
 
-.sx-nav .top .home img{
+.sx-nav .top .home img, .sx-nav .bottom .home {
     height: 30px;
 }
 
-.sx-nav .top > div {
+.sx-nav .top .home i {
+    font-size: 50px;
+}
+
+.sx-nav .top .home span {
+    margin-left: 10px;
+}
+
+.sx-nav .top > div, .sx-nav .center a, .sx-nav .bottom {
     color: #d2d2d2;
 }
 
@@ -73,10 +85,28 @@ body {
     border: 1px solid red;
 }
 .sx-nav .bottom {
-    height: 150px;
+    height: 200px;
     width: 100%;
     border: 1px solid red;
 }
+
+.sx-nav .bottom div div{
+    width: 30px;
+    height: 30px;
+    background-color: #808080;
+    border-radius: 50%;
+    position: relative;
+}
+
+.sx-nav .bottom div img {
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
 /* fine nav sx */
 
 /* inizio main dx */
