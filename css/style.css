@@ -55,7 +55,7 @@ ul {
     background-color: #000000;
     max-height: calc(100vh - 100px); /* -100px footer */
     min-height: calc(100vh - 100px); /* -100px footer */
-    width: 300px;
+    width: 250px;
 }
 
 .sx-nav .top {
@@ -124,7 +124,7 @@ ul {
     right: 0;    
     background-color: #080b12;
     min-height: 100px;
-    width: calc(100% - 300px);
+    width: calc(100% - 250px);
     justify-content: flex-end;
     align-items: center;
 }
