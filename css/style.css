@@ -174,13 +174,17 @@ footer div .box {
 
 /* qui sotto tuto da fare */
 [class*="foot-"] {
-    width: 200px;
+    width: 250px;
     height: 50px;
     background-color: blue;
 } 
 
 footer {
     color: #ffffff;
+}
+
+.foot-sx {
+    width: 180px;
 }
 
 /* fine footer */
