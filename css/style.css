@@ -171,6 +171,12 @@ footer div .box {
     background-color: #141922;
 }
 
+[class*="foot-"] {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} 
+
 /* fine footer */
 
 
