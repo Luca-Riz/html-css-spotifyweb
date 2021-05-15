@@ -61,7 +61,7 @@ ul {
 /* inizio nav sx da S a più piccolo */
 
 .sx-nav-xs {
-    /* display: none; da mettere*/
+    display: none;
     background-color: #000000;
     max-height: calc(100vh - 100px); /* -100px footer */
     min-height: calc(100vh - 100px); /* -100px footer */
@@ -69,15 +69,17 @@ ul {
     color: white;
 }
 
+@media screen and (max-width: 540px){
+    .sx-nav-xs {display: flex;}
+}
+
 .sx-nav-xs div div {
     width: 25px;
     height: 25px;
     margin: 15px 0;
 }
-.sx-nav-xs div div img {
-    max-width: 100%;
-    min-width: 100%;
-    object-fit: cover;
+.sx-nav-xs .bottom div img {
+    height: 18px;
 }
 
 /* user */
@@ -106,11 +108,14 @@ ul {
 
 /* inizio nav sx da S a più grande */
 .sx-nav {
-    display: none; /*da togliere*/
     background-color: #000000;
     max-height: calc(100vh - 100px); /* -100px footer */
     min-height: calc(100vh - 100px); /* -100px footer */
     width: 220px;
+}
+
+@media screen and (max-width: 540px){
+    .sx-nav {display: none;}
 }
 
 .sx-nav .top {
@@ -183,6 +188,10 @@ ul {
     width: calc(100% - 220px); /* -.sx-nav */
     justify-content: flex-end;
     align-items: center;
+}
+
+@media screen and (max-width: 540px){
+    .upgrade {width: calc(100% - 50px);}
 }
 
 .upgrade .uppercase {
