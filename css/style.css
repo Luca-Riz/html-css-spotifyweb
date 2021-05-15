@@ -58,7 +58,55 @@ ul {
 /* inizio main */
 /* inizio nav sx */
 
+/* inizio nav sx da S a più piccolo */
+
+.sx-nav-xs {
+    /* display: none; da mettere*/
+    background-color: #000000;
+    max-height: calc(100vh - 100px); /* -100px footer */
+    min-height: calc(100vh - 100px); /* -100px footer */
+    width: 50px;
+    color: white;
+}
+
+.sx-nav-xs div div {
+    width: 25px;
+    height: 25px;
+    margin: 15px 0;
+}
+.sx-nav-xs div div img {
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+/* user */
+.sx-nav-xs .bottom div:nth-child(2){
+    width: 25px;
+    height: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+    position: relative;
+}
+
+.sx-nav-xs .bottom div i {
+    font-size: 25px;
+}
+
+.sx-nav-xs .bottom div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+/* fine user */
+
+/* fine nav sx da S a più piccolo */
+
+/* inizio nav sx da S a più grande */
 .sx-nav {
+    display: none; /*da togliere*/
     background-color: #000000;
     max-height: calc(100vh - 100px); /* -100px footer */
     min-height: calc(100vh - 100px); /* -100px footer */
@@ -105,6 +153,7 @@ ul {
     width: 100%;
 }
 
+/* user */
 .sx-nav .bottom div div{
     width: 20px;
     height: 20px;
@@ -119,9 +168,9 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
-
+/* fine user */
+/* fine nav sx da S a più grande */
 /* fine nav sx */
 
 /* inizio main dx */
@@ -190,10 +239,7 @@ footer {
     color: #ffffff;
 }
 
-.foot-sx-sx {
-    width: 150px;
-    height: 50px;
-}
+
 
 /* inizio barre riproduzione */
 
@@ -221,7 +267,7 @@ footer {
 }
 
 .foot-dx .little-bar {
-    width: 100px;
+    width: 10vw;
     height: 5px;
     border-radius: 5px;
     background-color: #5a5a5a;
@@ -229,7 +275,7 @@ footer {
 }
 
 .foot-dx .little-bar-white {
-    width: 20px;
+    width: 2vw;
     height: 5px;
     border-radius: 5px;
     background-color: white;
@@ -238,6 +284,30 @@ footer {
     left: 0;
 }
 /* fine barre riproduzione */
+
+.foot-sx-sx     {width: 150px;
+                height: 50px;}
+.foot-sx-sx div > * {font-size: 10px;}
+.foot-sx-sx div {margin-left: 10px;}
+
+@media screen and (max-width: 720px){
+    .foot-sx-sx     {width: 100px;}
+    .foot-sx-sx div > * {font-size: 8px;}
+    .foot-sx-sx div {margin-left: 6px;}
+}
+
+
+.foot-center .ft-c-top > * {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 720px){
+    .foot-center .ft-c-top > * {
+        margin: 0 6px;
+        font-size: 13px;
+    }
+}
 
 .foot-dx > * {
     margin: 0 10px;
@@ -250,5 +320,4 @@ footer {
         font-size: 10px;
     }
 }
-
 /* fine footer */
