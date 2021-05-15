@@ -31,6 +31,12 @@ ul {
     padding: 0;
 }
 
+.fit {
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
 /* attenzione, selettore  molto generico */
 .col-xs-2 img {
     width: 100%;
