@@ -311,10 +311,20 @@ footer {
     font-size: 16px;
 }
 
+.foot center .fa-play-circle:before {
+    content:"\f144";
+    font-size: 25px;
+   }
+   
+
 @media screen and (max-width: 720px){
     .foot-center .ft-c-top > * {
         margin: 0 6px;
         font-size: 13px;
+    }
+    .foot-center .fa-play-circle:before {
+        content:"\f144";
+        font-size: 22px;
     }
 }
 
