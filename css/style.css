@@ -31,11 +31,37 @@ ul {
     padding: 0;
 }
 
+.cover {
+    position: relative;
+}
+
 .fit {
     max-width: 100%;
     min-width: 100%;
     object-fit: cover;
 }
+
+.cover i {
+    font-size: 5vw;
+    color: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+@media screen and (max-width: 540px){
+    .cover i {font-size: 5vw;}
+}
+
+@media screen and (max-width: 720px){
+    .cover i {font-size: 10vw;}
+}
+
+.cover:hover i {
+    display: block;
+}
+
 
 /* attenzione, selettore  molto generico */
 .col-xs-2 img {
@@ -322,7 +348,6 @@ footer {
 }
 
 .foot-center .fa-play-circle:before {
-    content:"\f144";
     font-size: 25px;
 }
    
@@ -333,7 +358,6 @@ footer {
         font-size: 13px;
     }
     .foot-center .fa-play-circle:before {
-        content:"\f144";
         font-size: 22px;
     }
 }
