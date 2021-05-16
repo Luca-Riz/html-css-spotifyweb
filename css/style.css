@@ -56,7 +56,17 @@ ul {
 /* fine common */
 
 /* inizio main */
+
+.container-fluid > main:nth-child(1) > div:nth-child(1) {
+    background-color: #080b12;
+}
+
+
 /* inizio nav sx */
+
+.navig {
+    margin-top: 100px;
+}
 
 /* inizio nav sx da S a più piccolo */
 
@@ -183,7 +193,7 @@ ul {
     position: fixed;
     top: 0;
     right: 0;    
-    background-color: #080b12;
+    background-color: rgba(0,0,0,0.5);
     min-height: 100px;
     width: calc(100% - 220px); /* -.sx-nav */
     justify-content: flex-end;
@@ -199,7 +209,7 @@ ul {
     color: #f7f7f7;
     padding: 10px 30px;
     border-radius: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     border: 1px solid #f7f7f7; 
 }
 
@@ -222,7 +232,7 @@ ul {
 }
 
 .main-contents {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 100px);
 }
 
 
