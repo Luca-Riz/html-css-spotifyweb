@@ -239,6 +239,10 @@ ul {
     border: 1px solid #f7f7f7; 
 }
 
+.upgrade .uppercase:hover {
+    transform: scale(1.18);
+}
+
 .right-main .row.contents {
     background-color: #141922;     
     width: 100%;
