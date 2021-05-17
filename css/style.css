@@ -162,6 +162,11 @@ ul {
     width: 100%;
 }
 
+div.home:nth-child(2) > img:nth-child(1) {
+    border-left: 3px solid #adff2f;
+    padding-left: 17px;
+}
+
 .sx-nav .top .logo img {
     width: 150px;
     margin: 20px;
@@ -273,6 +278,11 @@ span.white:nth-child(2) {
     cursor: pointer;
 }
 
+.right-main .contents .navig li span {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #adff2f;
+}
+
 .right-main .items > div {
     padding: 10px;
 }
@@ -322,6 +332,7 @@ footer {
 }
 
 .foot-center .ft-c-bottom .center .all-bar .white-bar {
+    position: relative;
     width: 20%;
     height: 5px;
     border-radius: 5px;
@@ -329,6 +340,29 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+/* geometria puntino - poi nascosta per vederela con hover */
+.foot-center .ft-c-bottom .center .all-bar .white-bar .point-bar, .foot-dx .little-bar .little-bar-white .point-bar{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* fai diventare la barre verdi */
+.foot-center .ft-c-bottom .center .all-bar:hover .white-bar, .foot-dx .little-bar:hover .little-bar-white {
+    background-color: #adff2f;
+}
+
+/* mostra puntino su barre verde */
+.foot-center .ft-c-bottom .center .all-bar:hover  .white-bar .point-bar, .foot-dx .little-bar:hover .little-bar-white .point-bar{
+    display: block;
 }
 
 .foot-dx .little-bar {
@@ -378,12 +412,13 @@ footer {
     font-size: 16px;
 }
 
-.foot-center .fa-play-circle {
-    font-size: 25px;
+/* sopra tutti tasti riproduzione, barra grande, barra piccola e 3 tasti a fianco */
+.foot-center .ft-c-top > *:hover, .center .all-bar:hover, .foot-dx > *:hover {
+    cursor: pointer;
 }
 
-.foot-center:hover {
-    cursor: pointer;
+.foot-center .fa-play-circle {
+    font-size: 25px;
 }
 
 .foot-center .fa-play-circle:hover {
