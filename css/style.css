@@ -78,7 +78,9 @@ ul {
     display: block;
 }
 
-.cover:hover, .items .title:hover, .items .sub-title:hover{
+.cover:hover, 
+.items .title:hover, 
+.items .sub-title:hover{
     cursor: pointer;
 }
 
@@ -136,7 +138,8 @@ ul {
 }
 
 /* hover su tutti i tasti in xs tranne su user */
-.sx-nav-xs .top div, .sx-nav-xs .bottom div:first-child {
+.sx-nav-xs .top div, 
+.sx-nav-xs .bottom div:first-child {
     cursor: pointer;
 }
 
@@ -195,7 +198,8 @@ div.home:nth-child(2) > img:nth-child(1) {
     margin: 20px;
 }
 
-.sx-nav .top .home img, .sx-nav .bottom .home {
+.sx-nav .top .home img,
+.sx-nav .bottom .home {
     height: 25px;
 }
 
@@ -207,11 +211,15 @@ div.home:nth-child(2) > img:nth-child(1) {
     margin-left: 10px;
 }
 
-.sx-nav .top > div, .sx-nav .center a, .sx-nav .bottom {
+.sx-nav .top > div, 
+.sx-nav .center a, 
+.sx-nav .bottom {
     color: #808080;
 }
 
-.sx-nav .top > div:hover, .sx-nav .center a:hover, .sx-nav .bottom div:not(.john):hover {
+.sx-nav .top > div:hover, 
+.sx-nav .center a:hover, 
+.sx-nav .bottom div:not(.john):hover {
     color: white;
     cursor: pointer;
 }
@@ -373,7 +381,8 @@ footer {
 }
 
 /* fai diventare la barre verdi */
-.foot-center .ft-c-bottom .center .all-bar:hover .white-bar, .foot-dx .little-bar:hover .little-bar-white {
+.foot-center .ft-c-bottom .center .all-bar:hover .white-bar, 
+.foot-dx .little-bar:hover .little-bar-white {
     background-color: #adff2f;
 }
 
@@ -416,7 +425,8 @@ footer {
     .foot-sx-sx div {margin-left: 6px;}
 }
 
-.foot-sx-sx .title-sub .tit:hover, .foot-sx-sx .title-sub .sub-tit:hover {
+.foot-sx-sx .title-sub .tit:hover, 
+.foot-sx-sx .title-sub .sub-tit:hover {
     color: white;
     text-decoration: underline;
     cursor: pointer;
@@ -444,7 +454,9 @@ footer {
 }
 
 /* sopra tutti tasti riproduzione, barra grande, barra piccola e 3 tasti a fianco */
-.foot-center .ft-c-top > *:hover, .center .all-bar:hover, .foot-dx > *:hover {
+.foot-center .ft-c-top > *:hover, 
+.center .all-bar:hover, 
+.foot-dx > *:hover {
     cursor: pointer;
 }
 
