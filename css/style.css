@@ -261,6 +261,11 @@ div.home:nth-child(2) > img:nth-child(1) {
     .upgrade {width: calc(100% - 50px);}
 }
 
+@media screen and (max-height: 350px){
+    .upgrade {display: none;}
+}
+
+
 .upgrade .uppercase {
     z-index: 1;
     color: #f7f7f7;
