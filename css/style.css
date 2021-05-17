@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    /* background-color: #080b12; attivare alla fine */
     font-weight: 600;
 }
 
@@ -42,6 +41,7 @@ ul {
 
 .cover img {
     position: relative;
+    display: block;
 }
 
 .cover i {
@@ -96,8 +96,6 @@ ul {
 .grey {
      color: #808080;
 }
-
-
 
 /* fine common */
 
@@ -309,13 +307,7 @@ div.home:nth-child(2) > img:nth-child(1) {
     height: calc(100vh - 100px);
 }
 
-
-
 /* fine main */
-
-
-
-
 
 /* inizio footer */
 
@@ -332,14 +324,11 @@ footer {
     color: #ffffff;
 }
 
-
-
 /* inizio barre riproduzione */
 
 .ft-c-bottom > div:nth-child(2) {
     width: 30vw;
    }
-   
 
 .foot-center .ft-c-bottom .center .all-bar {
     width: 100%;
@@ -435,7 +424,6 @@ footer {
     cursor: pointer;
 }
 
-
 .foot-center .ft-c-top > * {
     margin: 0 10px;
     font-size: 16px;
@@ -454,8 +442,6 @@ footer {
     transform: scale(1.5);
     cursor: pointer;
 }
-
-   
 
 @media screen and (max-width: 720px){
     .foot-center .ft-c-top > * {
