@@ -413,6 +413,17 @@ footer {
     cursor: pointer;
 }
 
+.foot-sx-dx {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 540px){
+    .foot-sx-dx {
+        flex-direction: column;
+    }
+}
+
 .foot-sx-dx i:hover {
     color: white;
     cursor: pointer;
