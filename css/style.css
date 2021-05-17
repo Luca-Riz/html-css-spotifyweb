@@ -112,6 +112,11 @@ ul {
     margin-top: 100px;
 }
 
+@media screen and (max-height: 350px){
+    .navig {margin-top: 0px;}
+}
+
+
 /* inizio nav sx da S a più piccolo */
 
 .sx-nav-xs {
@@ -310,6 +315,10 @@ div.home:nth-child(2) > img:nth-child(1) {
 
 .main-contents {
     height: calc(100vh - 100px);
+}
+
+@media screen and (max-height: 350px){
+    .main-contents {height: 100vh;}
 }
 
 /* fine main */
