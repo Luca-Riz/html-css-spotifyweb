@@ -80,7 +80,7 @@ ul {
     display: block;
 }
 
-.cover:hover{
+.cover:hover, .items .title:hover, .items .sub-title:hover{
     cursor: pointer;
 }
 
@@ -210,12 +210,6 @@ div.home:nth-child(2) > img:nth-child(1) {
     color: white;
     cursor: pointer;
 }
-
-/* no cursor pointer on John Doe */
-/* span.white:nth-child(2) {
-    cursor: initial;
-} */
-
 
 .sx-nav .center {
     min-height: 130px;
