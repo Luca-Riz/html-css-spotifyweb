@@ -41,15 +41,32 @@ ul {
     object-fit: cover;
 }
 
+.cover img {
+    position: relative;
+}
+
 .cover i {
     font-size: 5vw;
-    color: rgba(255,255,255,0.7);
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
 }
+
+/* backgroung alla copertina */
+.cover .rgba {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+
 @media screen and (max-width: 540px){
     .cover i {font-size: 5vw;}
 }
@@ -58,7 +75,8 @@ ul {
     .cover i {font-size: 10vw;}
 }
 
-.cover:hover i {
+/* hover copertina - simbolo play e opacità nera */
+.cover:hover i, .cover:hover .rgba{
     display: block;
 }
 
