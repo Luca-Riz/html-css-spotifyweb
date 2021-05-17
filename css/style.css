@@ -206,15 +206,15 @@ div.home:nth-child(2) > img:nth-child(1) {
     color: #808080;
 }
 
-.sx-nav .top > div:hover, .sx-nav .center a:hover, .sx-nav .bottom div:hover {
+.sx-nav .top > div:hover, .sx-nav .center a:hover, .sx-nav .bottom div:not(.john):hover {
     color: white;
     cursor: pointer;
 }
 
 /* no cursor pointer on John Doe */
-span.white:nth-child(2) {
+/* span.white:nth-child(2) {
     cursor: initial;
-}
+} */
 
 
 .sx-nav .center {
