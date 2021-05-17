@@ -7,7 +7,6 @@ body {
 /* inizio common */
 
 .box-nested {
-    width: 100%;
     text-align: center;
     display: flex;
 }
@@ -251,6 +250,7 @@ div.home:nth-child(2) > img:nth-child(1) {
     width: calc(100% - 220px); /* -.sx-nav */
     justify-content: flex-end;
     align-items: center;
+    z-index: 1;
 }
 
 @media screen and (max-width: 540px){
