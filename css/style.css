@@ -134,6 +134,12 @@ ul {
     height: 25px;
     margin: 15px 0;
 }
+
+/* hover su tutti i tasti in xs tranne su user */
+.sx-nav-xs .top div, .sx-nav-xs .bottom div:first-child {
+    cursor: pointer;
+}
+
 .sx-nav-xs .bottom div img {
     height: 18px;
 }
